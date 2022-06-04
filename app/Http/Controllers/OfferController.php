@@ -254,12 +254,7 @@ return $request;
             where('offers_id','=',$id)->count();
         return $vues;
    }
-//   public function hhhh(){
-//        $offer=Offer::with('users')->get();
-////       $offer=Offer::select()->join('agences','agences_id','=','email')
-////           ->join('images','offers.id','=','offer_id')->get();
-//        return $offer;
-//   }
+
 
 
 }

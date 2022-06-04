@@ -42,7 +42,5 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-//    public function offers(){
-//        return $this->belongsToMany(Offer::class,'commentaires','offers_id','id');
-//    }
+
 }

@@ -17,7 +17,7 @@ class CreateOffersTable extends Migration
             $table->id();
             $table->string('agences_id');
             $table->bigInteger('categories_id',false,true);
-            $table->string('description',255);
+            $table->string('description',500);
             $table->double('surface');
             $table->integer('prix');
             $table->string('longitude');
